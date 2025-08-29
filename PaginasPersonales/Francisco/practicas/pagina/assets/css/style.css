@@ -1,0 +1,109 @@
+/* 
+!!Notas clase!!: 
+Estructura tipica de un sitio web:
+
+Carpeta:
+    assets:
+        css
+        js
+        img
+        docs
+
+    index.html
+
+    subcarpetas con paginas html o archivos html
+
+
+---------------------------------------------------
+    
+estilo para todas las etiquetas de un tipo:
+
+se pone directo
+
+para ids: se usa un #
+
+para clases: con un .  */
+
+
+
+
+
+/*Empieza el diseño de la pag web */
+
+html {
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:seagreen;
+}
+
+#container {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 20px 12px;
+}
+
+#nav {
+    background-color: red;
+    color: black;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+.menu {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-transform: lowercase;
+    text-decoration:underline ;
+    font-size: larger;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+
+.menu a:visited {
+    color: blue;
+}
+
+
+
+.menu a:hover {
+    color: red;
+    
+}
+
+
+
+
+
+.imgContainer {
+    margin-top: 30px;
+}
+
+.imgContainer > img {
+    border-radius: 50%;
+    height: 8cm;
+    width: 10cm;
+}
+
+.animacion {
+    border-radius: 15px;
+    width: 100px;
+}
+
+.animacion:hover{
+    width: 300px;
+    cursor:pointer;
+}
+
+
+
+
