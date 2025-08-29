@@ -87,6 +87,7 @@ nav ul li a:hover {
 }
 
 #menu, #promos {
+  box-sizing: border-box;
   width: 90%;
   margin: 2rem;
   padding: 1.5rem 2rem;
@@ -114,7 +115,7 @@ nav ul li a:hover {
   background-color: white;
 }
 
-#menu ul li strong, #promos p {
+#menu ul li strong, .txtPromos p {
   font-size: 1.15rem;
   color: #7f5a1a;
 }
@@ -128,33 +129,46 @@ nav ul li a:hover {
 }
 
 #promos {
-    text-align: center;
-    display: block;
-    margin: 15px;
-    padding: 15px;
+  align-self: center;
+  text-align: center;
+  padding: 2px;
 }
 
-#promos div {
-    overflow: hidden;
-    height: 140px;
-    border: 2px solid rgb(255, 184, 113);
-    border-radius: 8px;
-    max-width: 60%;
-    margin: 0 left;
-
+#promos h1 {
+  margin-bottom: 50px;
+  text-shadow: #8b7d65 1px 1px;
 }
 
 #promos img {
-    max-width: 100%;
+  max-height: 40vh;
 }
 
-#promos p {
-    font-weight: 500;
-    text-align: center;
-    display: block;
-    width: 300px;
-    background-color: #d2b48c;
-    border-radius: 5px;
-    margin-left: 3%;
-    padding: 0px;
+.contPro {
+  max-height: 25vh;
+  overflow: hidden;
+  border: #7f5a1a solid 3px;
+  border-radius: 15px;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.txtPromos{
+  max-width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  border: #7f5a1a solid 3px;
+  border-top: none;
+  padding: 2px;
+  margin-bottom: 80px;
+  border-radius: 0px 0px 15px 15px;
+  background-color: rgba(85, 48, 0, 0.534);
+  box-shadow: #ffc665 1px 1px 1px 1px;
+}
+
+.txtPromos p{
+  margin: 0;
+  padding: 2px;
+  max-width: 360px;
+  color: rgb(255, 251, 239);
+  font-size: x-large;
 }
