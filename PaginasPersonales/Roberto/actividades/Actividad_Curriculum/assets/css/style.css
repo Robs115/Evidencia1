@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Columna izquierda */
+.ContenedorIzquierdo {
+  width: 30%;
+  background: #f4ede7;
+  padding: 20px;
+  text-align: center;
+}
+
+.ContenedorIzquierdo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.info h3 {
+  margin-bottom: 10px;
+  color: #e94e77;
+  border-bottom: 2px solid #e94e77;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Columna derecha */
+.ContenedorDerecho {
+  width: 70%;
+  padding: 30px;
+}
+
+.Nombre {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e94e77;
+}
+
+.Profesion {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.BloqueInfo {
+  margin-bottom: 25px;
+}
+
+.BloqueInfo h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #e94e77;
+  border-bottom: 2px solid #e94e77;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.Trayectoria {
+  margin-bottom: 15px;
+}
+
+.Trayectoria h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.Trayectoria p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.Referencias {
+  display: flex;
+  gap: 40px;
+  font-size: 14px;
+}
