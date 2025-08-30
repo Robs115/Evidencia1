@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+  <head lang="es">
+    <title>Descripcion de etiquetas</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <table border="1">
+      <caption>
+        <b>Descripcion de etiquetas HTML:</b>
+      </caption>
+      <thead>
+        <tr>
+          <th>Etiqueta</th>
+          <th>Descripcion</th>
+          <th>Visualmente</th>
+          <th>Enlace</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>&lt;!DOCTYPE&gt;</td>
+
+          <td>
+            <p>
+              Tecnicamente no es una etiqueta, es informacion que se le da al
+              navegador para que sepa que tipo de documento esta tratando.
+            </p>
+          </td>
+
+          <td>
+            <p>&lt;!DOCTYPE html&gt;</p>
+          </td>
+
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_doctype.ASP"
+              target="_blank"
+              ><img src="imgFHK/doctype.jpg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;html&gt;</td>
+          <td>
+            <p>
+              Representa la raiz de un documento HTML, dentro de esta etiqueta
+              se encuentra todos los otros elementos html (salvo el DOCTYPE). Se
+              recomienda siempre indicar el atributo de idioma (ej. lang="es").
+            </p>
+          </td>
+          <td>
+            &lt;html&gt; <br />
+            <br />
+            &lt;/html&gt;
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_html.asp"
+              target="_blank"
+              ><img src="imgFHK/html.jpeg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>
+            <p>
+              Es un contenedor de metadatos (datos sobre datos), se coloca entre
+              el html y el body. Esta informacion es acerca del documento HTML,
+              no se despliega en la pagina, por ejemplo, el titulo del
+              documento, scripts, estilos, etc.
+            </p>
+          </td>
+          <td>
+            &lt;head&gt; <br />
+            <br />
+            &lt;/head&gt;
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_html.asp"
+              target="_blank"
+              ><img src="imgFHK/head.jpg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>
+            <p>
+              Define el titulo del documento, es mostrado en la pestaña de
+              pagina del navegador. El titulo de la pagina es usado por
+              algoritmos de motores de busqueda para mostrar resultados.
+            </p>
+          </td>
+          <td>&lt;title&gt;Titulo de Ejemplo&lt;/title&gt;</td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_title.asp"
+              target="_blank"
+              ><img src="imgFHK/title.jpg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;meta&gt;</td>
+          <td>
+            <p>
+              Especifica el tipo de caracteres, describe la pagina, el autor,
+              etc. No se muestra en la pagina, pero es informacion usada por el
+              navegador, buscadores y otros servicios.
+            </p>
+          </td>
+          <td>&lt;meta&gt;</td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_meta.asp"
+              target="_blank"
+              ><img src="imgFHK/meta.jpg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;body&gt;</td>
+          <td>
+            <p>
+              Define el cuerpo del documento, contiene multitud de elementos
+              HTML, como encabezados, parrafos, imagenes, vinculos, etc.
+            </p>
+          </td>
+          <td>
+            &lt;body&gt; <br />
+            <br />
+            &lt;/body&gt;
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_body.asp"
+              target="_blank"
+              ><img src="imgFHK/body.jpg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;,
+            &lt;h6&gt;
+          </td>
+          <td>
+            <p>
+              Se usan para definir encabezados, del mas grande al mas chico,
+              siendo h1 el mas grande y h6 el mas chico.
+            </p>
+          </td>
+          <td>
+            <h1>Texto de Ejemplo.</h1>
+            <h2>Texto de ejemplo.</h2>
+            <h3>Texto de ejemplo.</h3>
+            <h4>Texto de ejemplo.</h4>
+            <h5>Texto de ejemplo.</h5>
+            <h6>Texto de ejemplo.</h6>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank"
+              ><img src="imgFHK/hs.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>
+            <p>
+              Se usa para definir parrafos de texto. Por predeterminado los
+              navegadores añaden un espacio en blanco entre cada p.
+            </p>
+          </td>
+          <td><p>Texto de ejemplo.</p></td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank"
+              ><img src="imgFHK/p.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;u&gt;</td>
+          <td>
+            <p>Se usa para subrayar un texto.</p>
+          </td>
+          <td>
+            <p><u>Texto de ejemplo.</u></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_u.asp" target="_blank"
+              ><img src="imgFHK/u.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;b&gt;,<br />&lt;strong&gt;</td>
+          <td>
+            <p>
+              Define texto en negritas, b se refiere a texto sin importancia
+              especial, strong se usa para texto importante.
+            </p>
+          </td>
+          <td>
+            <p>
+              <b>Texto de ejemplo.</b><br /><strong>Texto de ejemplo.</strong>
+            </p>
+          </td>
+          <td>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong"
+              target="_blank"
+              ><img src="imgFHK/bold.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;i&gt;</td>
+          <td>
+            <p>Define texto en cursiva o con tono alternativo.</p>
+          </td>
+          <td>
+            <p><i>Texto de ejemplo.</i></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_i.asp" target="_blank"
+              ><img src="imgFHK/i.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;hr&gt;</td>
+          <td>
+            <p>
+              Define un separador de tema o contenido, tipicamente se muestra
+              como una linea horizontal. Es una etiqueta que no requiere ser
+              cerrada.
+            </p>
+          </td>
+          <td>
+            <p>Texto de ejemplo</p>
+            <hr />
+            <p>Texto de ejemplo</p>
+            <hr />
+            <p>Texto de ejemplo</p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_hr.asp" target="_blank"
+              ><img src="imgFHK/hr.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>
+            <p>
+              Define un salto de linea, un renglon en blanco. Es una etiqueta
+              que no requiere ser cerrada.
+            </p>
+          </td>
+          <td>
+            <p>Texto de ejemplo.</p>
+            <br />
+            <p>Texto de ejemplo.</p>
+            <br />
+            <p>Texto de ejemplo.</p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_br.asp" target="_blank"
+              ><img src="imgFHK/br.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>
+            <p>Define una lista desordenada.</p>
+          </td>
+          <td>
+            <ul>
+              <li>Texto de ejemplo.</li>
+              <li>Texto de ejemplo.</li>
+              <li>Texto de ejemplo.</li>
+            </ul>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_ul.asp" target="_blank"
+              ><img src="imgFHK/ul.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;ol&gt;</td>
+          <td>
+            <p>
+              Define una lista ordenada. Con atributos se puede hacer que use
+              letras, numeros, etc.
+            </p>
+          </td>
+          <td>
+            <ol>
+              <li>Texto de ejemplo.</li>
+              <li>Texto de ejemplo.</li>
+              <li>Texto de ejemplo.</li>
+            </ol>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_ol.asp" target="_blank"
+              ><img src="imgFHK/ol.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;li&gt;</td>
+          <td>
+            <p>
+              Un objeto de una lista, se usan dentro de una lista ordenada o
+              desordenada.
+            </p>
+          </td>
+          <td>
+            <ul>
+              <li>Texto de ejemplo.</li>
+            </ul>
+            <ol>
+              <li>Texto de ejemplo.</li>
+            </ol>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_li.asp" target="_blank"
+              ><img src="imgFHK/li.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;a&gt;</td>
+          <td>
+            <p>
+              Define un hipervinculo, para enlazar una pagina a otra o lugar
+              dentro de la misma pagina.
+            </p>
+          </td>
+          <td><a href="">Texto de ejemplo.</a></td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"
+              ><img src="imgFHK/a.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;mark&gt;</td>
+          <td>
+            <p>Define texto resaltado. Lo resalta con color amarillo.</p>
+          </td>
+          <td>
+            <p><mark>Texto de ejemplo.</mark></p>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_mark.asp"
+              target="_blank"
+              ><img src="imgFHK/mark.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;small&gt;</td>
+          <td>
+            <p>
+              Define texto chico, se suele usar para cosas como comentarios
+              laterales o copyright.
+            </p>
+          </td>
+          <td>
+            <p><small>Texto de ejemplo.</small></p>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_small.asp"
+              target="_blank"
+              ><img src="imgFHK/small.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;em&gt;</td>
+          <td>
+            <p>Le da enfasis al texto, parecido a &lt;i&gt;.</p>
+          </td>
+          <td>
+            <p><em>Texto de ejemplo.</em></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_em.asp" target="_blank"
+              ><img src="imgFHK/em.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;cite&gt;</td>
+          <td>
+            <p>
+              Cita el titulo de un trabajo creativo (ej. un libro, poema,
+              cancion, pelicula, etc.)
+            </p>
+          </td>
+          <td>
+            <p><cite>Texto de ejemplo.</cite></p>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_cite.asp"
+              target="_blank"
+              ><img src="imgFHK/cite.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;q&gt;</td>
+          <td>
+            <p>
+              Define que un fragmento o frase breve en un texto es una cita
+              textual, los navegadores lo suelen mostrar entre comillas. Para
+              citas largas se usa blockquote.
+            </p>
+          </td>
+          <td>
+            <p><q>Texto de ejemplo.</q></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_q.asp" target="_blank"
+              ><img src="imgFHK/q.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;blockquote&gt;</td>
+          <td>
+            <p>Define un bloque de texto con una cita textual.</p>
+          </td>
+          <td><blockquote>Texto de ejemplo.</blockquote></td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_blockquote.asp"
+              target="_blank"
+              ><img src="imgFHK/blockquote.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;abbr&gt;</td>
+          <td>
+            <p>
+              Define una abreviacion o acronimo, se usa el atributo titulo para
+              mostrar la descripcion de la abreviacion/acronimo cuando colocas
+              el puntero del raton sobre el elemento.
+            </p>
+          </td>
+          <td>
+            <p><abbr title="Texto de ejemplo.">Tde.</abbr></p>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_abbr.asp"
+              target="_blank"
+              ><img src="imgFHK/abbr.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;sup&gt;</td>
+          <td>
+            <p>Define que el texto se muestre como superíndice.</p>
+          </td>
+          <td>
+            <p><sup>Texto de ejemplo.</sup></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_sup.asp" target="_blank"
+              ><img src="imgFHK/sup.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;sub&gt;</td>
+          <td>
+            <p>Define que el texto se muestre como subíndice.</p>
+          </td>
+          <td>
+            <p><sub>Texto de ejemplo.</sub></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_sub.asp" target="_blank"
+              ><img src="imgFHK/sub.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;del&gt;</td>
+          <td>
+            <p>
+              Define texto eliminado del documento, tipicamente se muestra como
+              texto con una linea atravesandolo por en medio.
+            </p>
+          </td>
+          <td>
+            <p><del>Texto de ejemplo.</del></p>
+          </td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_del.asp" target="_blank"
+              ><img src="imgFHK/del.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>
+            <p>
+              Se usa para poner una imagen en una pagina HTML, se requiere usar
+              el atributo src para la fuente de la imagen y alt para mostrar un
+              texto descriptivo en caso de que no se halle la imagen.
+            </p>
+          </td>
+          <td><img src="imgFHK/woodpecker.gif" alt="Imagen de ejemplo." /></td>
+          <td>
+            <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank"
+              ><img src="imgFHK/img.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;iframe&gt;</td>
+          <td>
+            <p>Se usa para mostrar una pagina web dentro de una pagine web.</p>
+          </td>
+          <td>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23557.73740700341!2d-84.00506337198154!3d42.43375460588087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88233457814253ed%3A0xafb6105a07160a8f!2sHell%2C%20MI%2048169!5e0!3m2!1sen!2sus!4v1755721608184!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_iframe.asp"
+              target="_blank"
+              ><img src="imgFHK/iframe.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;code&gt;</td>
+          <td>
+            <p>
+              Se usa para mostrar texto que representa codigo de computadora,
+              usa un tipo de fuente particular.
+            </p>
+          </td>
+          <td>
+            <p><code>Texto de ejemplo.</code></p>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_code.asp"
+              target="_blank"
+              ><img src="imgFHK/code.png" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>&lt;video&gt;</td>
+          <td>
+            <p>
+              Se usa para mostrar un video en HTML. El texto entre las etiquetas
+              video solo se muestra si el navegador no tiene soporte para esta
+              etiqueta.
+            </p>
+          </td>
+          <td>
+            <p>
+              <video src="imgFHK/bnuuy.mp4" controls width="420" height="340">
+                Video de ejemplo.
+              </video>
+            </p>
+          </td>
+          <td>
+            <a
+              href="https://www.w3schools.com/tags/tag_video.asp"
+              target="_blank"
+              ><img src="imgFHK/video.jpg" width="500" height="300"
+            /></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
