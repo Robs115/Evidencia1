@@ -1,0 +1,30 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+img{
+    max-width: 100%;
+}
+
+#cuerpo{
+    display: flex;
+}
+
+#encabezado{
+    border:red solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+#texto {
+    border: red solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+#lateral{
+    max-width: 40%;
+    padding: 30px;
+    margin: 10px;
+    border: red solid;
+}
