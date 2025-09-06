@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Clima</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="container p-1">
+        <header>
+            <h1>Clima en San Nicolas de los Garza</h1>
+            <h2>Semana del 02 al 07 de Septiembre de 2024</h2>
+            <h6>Responsable Actualizacion: Jaime Cuellar</h6>
+        </header>
+        <!--Las columnas de los dias-->
+        <section class="row text-center mt-5">
+
+            <div class="col-2 border p-3 ">
+                <h5>Lunes 02</h5>
+                <h1><i class="fa-solid fa-cloud"></i></h1>
+                <p>Nublado</p>
+                <p>31°| 23°</p>
+                <hr>
+                <i class="fa-solid fa-wind h6"></i>
+                <p>12-29 km/h</p>
+            </div>
+            
+            <div class="col-2 border p-3">
+                <h5>Martes 03</h5>
+                <i class="fa-solid fa-bolt h1"></i>
+                <p>Tormenta</p>
+                <p>20°| 23°</p>
+                <hr>
+                <i class="fa-solid fa-wind h6"></i>
+                <p>18-32 km/h</p>
+            </div>
+            
+            <div class="col-2 border p-3">
+                <h5>Miercoles 04</h5>
+                <i class="fa-solid fa-sun h1"></i>
+                <p>Soleado</p>
+                <p>27°| 33°</p>
+                <hr>
+                <i class="fa-solid fa-wind h6"></i>
+                <p>19-26 km/h</p>
+            </div>                                  
+            
+            <div class="col-2 border p-3">
+                <h5>Jueves 05</h5>
+                <i class="fa-solid fa-sun h1"></i>
+                <p>Soleado</p>
+                <p>27°| 33°</p>
+                <hr>
+                <i class="fa-solid fa-wind h6"></i>
+                <p>20-29 km/h</p>
+            </div>
+            
+            <div class="col-2 border p-3">
+                <h5>Viernes 06</h5>
+                <i class="fa-solid fa-wind h1"></i>
+                <p>Viento</p>
+                <p>20°| 21°</p>
+                <hr>
+                <i class="fa-solid fa-wind h6"></i>
+                <p>16-27 km/h</p>
+            </div>
+            
+            <div class="col-2 border p-3">
+                <h5>Sabado 07</h5>
+                <i class="fa-solid fa-cloud-bolt h1"></i>
+                <p>Tormenta Electrica</p>
+                <p>23°| 31°</p>
+                <hr>
+                <i class="fa-solid fa-wind h6"></i>
+                <p>19-23 km/h</p>
+            </div>
+        </section>
+
+        <!--Detalles del clima-->
+        <section class="row mt-5">
+            <div class="col-6 ">
+                <h5>Pronostico proxima semana</h5>
+                <p>Pronostico del tiempo (8-14 de Septiembre)</p>
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Max</th>
+                            <th>Min</th>
+                            <th>Estado</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>8 de Septiembre</td>
+                            <td>28</td>
+                            <td>18</td>
+                            <td>Parcialmente Nublado</td>
+                        </tr>
+                        <tr>
+                            <td>9 de Septiembre</td>
+                            <td>30</td>
+                            <td>20</td>
+                            <td>Despejado</td>
+                        </tr>
+                        <tr>
+                            <td>10 de Septiembre</td>
+                            <td>27</td>
+                            <td>19</td>
+                            <td>Posibles lluvias</td>
+                        </tr>
+                        <tr>
+                            <td>11 de Septiembre</td>
+                            <td>25</td>
+                            <td>17</td>
+                            <td>Parcialmente Nublado</td>
+                        </tr>
+                        <tr>
+                            <td>12 de Septiembre</td>
+                            <td>29</td>
+                            <td>18</td>
+                            <td>Parcialmente Nublado</td>
+                        </tr>
+                        <tr>
+                            <td>13 de Septiembre</td>
+                            <td>29</td>
+                            <td>19</td>
+                            <td>Posibles lluvias</td>
+                        </tr>
+                        <tr>
+                            <td>14 de Septiembre</td>
+                            <td>29</td>
+                            <td>25</td>
+                            <td>Parcialmente Nublado</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-6 ">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Salida y puesta del sol</h5>
+                            <p>Hoy,Lunes 02 de Septiembre</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            <p>Salida</p>
+                                            
+                                        </div>
+                                        <div class="card body text-center img-center p-3">
+                                            <center><i class="fa-solid fa-sun h1"></i></center>
+                                            <h1>7:00 am</h1>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card">
+                                    <div class="card-header text-center">
+                                            <p>Puesta</p>
+                                        </div>
+                                    <div class="card body text-center img-center p-3">
+                                            <center><i class="fa-solid fa-sun h1"></i></center>
+                                            <h1>7:00 am</h1>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header p-2">
+                            <h5>Informacion UV</h5>
+                        </div>
+                    <div class="card-body">
+                        <p>La radiacion ultravioleta (UV) es una forma de radiacion no ionizante* que es emitida por el sol y fuentes artificiales, como las camas bronceadoras. Aunque ofrece algunos beneficios a las personas, como la produccion de vitamina D, tambien puede causar riesgos para la salud. </p>
+                    </div>
+                    <div class="card-footer border">
+                        <p>Informacion solo de caracter informativo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="alert alert-info" role="alert">
+            Jaime Rene Cuellar Palomares
+        </div>
+    </main>
+</body>
+</html>
