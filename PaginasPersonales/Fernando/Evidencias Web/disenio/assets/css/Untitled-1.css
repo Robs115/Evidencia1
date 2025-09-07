@@ -1,0 +1,57 @@
+/* empiexa el disenio de mi pagina web*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: goldenrod;
+}
+
+#container {
+    background-color: cornsilk;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 20px rgba(10, 62, 225, 0,74);
+    /*text box css internet*/
+}
+
+#navaSuperior {
+    background-color: darkkhaki;
+    color: lightslategrey;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.menu {
+    background-color: rgb(209, 147, 53);
+    color:black;
+    padding: 10px;
+    text-transform: lowercase;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+.imagecontainer {   
+    margin-top: 10px
+    
+}
+
+.imagecontainer > img {   
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+
+    
+}
+
+.animacion{
+    border-radius: 50px;
+}
+
+.animacion:hover {
+    width: 600px;
+    height: 600px;
+    cursor:pointer;
+}
