@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog HTML y CSS</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Panel lateral -->
+  <aside class="PanelLateral">
+    <h2><i class="fa-solid fa-bars"></i> Blog Web</h2>
+    <ul>
+      <li><a href="#Inicio"><b>Inicio</b></a></li>
+      <li><a href="#Introduccion"><b>Introducción</b></a></li>
+      <li><a href="#HTML"><b>Lenguaje HTML</b></a></li>
+      <li><a href="#CSS"><b>Lenguaje CSS</b></a></li>
+      <li><a href="#Videos"><b>Videos y tutoriales</b></a></li>
+      <li><a href="#Aplicaciones"><b>Aplicaciones Para Programar</b></a></li>
+      <li><a href="#PaginasPersonales"><b>Paginas personales</b></a></li>
+    </ul>
+    <footer>© 2025 Desarollo Web Grupo 51</footer>
+  </aside>
+  <!-- Contenido principal -->
+  <main class="contenido">
+
+    <!-- Bienvenida Introducción  -->
+    <section id="Introduccion" class="bienvenida">
+      <h2>Bienvenido</h2>
+      <p>
+        El desarrollo web es una de las áreas más dinámicas y en constante evolución dentro de la tecnología.
+        Aquí aprenderás los elementos fundamentales para crear páginas y aplicaciones que funcionen en cualquier
+        navegador moderno.
+      </p>
+
+      <h2>Introducción al Desarrollo Web</h2>
+      <p>
+        El desarrollo web combina distintas tecnologías que permiten dar vida a sitios y aplicaciones en internet.
+        Sus características principales son:
+      </p>
+      <ul>
+        <li><b>Interactividad:</b> comunicación entre usuarios y sistemas.</li>
+        <li><b>Accesibilidad:</b> disponible para cualquier persona con internet.</li>
+        <li><b>Escalabilidad:</b> los proyectos pueden crecer según la necesidad.</li>
+        <li><b>Multiplataforma:</b> funciona en diferentes dispositivos.</li>
+      </ul>
+    </section>
+    <!-- Lenguaje HTML -->
+    <section id="HTML" class="lenguajehtml">
+      <h2>Lenguaje HTML</h2>
+      <p>
+        HTML (<i>HyperText Markup Language</i>) es el lenguaje que define la estructura de una página web.
+        Con él se organizan títulos, párrafos, listas, enlaces, imágenes y más.
+        HTML es un leguaje descriptivo, no de programacion, y funciona con diseños gracias a css, y la interactividad de
+        la pagina es añadida con JavaScript.
+      </p>
+      <center>
+        <b>
+          <h1>Estructura</h1>
+        </b>
+        <img src="https://disenowebakus.net/imagenes/articulos/estructura-basica-de-una-pagina-web-en-html.jpg"
+          alt="Estructura HTML" width="500" height="300">
+      </center>
+    </section>
+
+    <!--Lenguaje CSS-->
+    <section id="CSS" class="Css">
+      <h2>Lenguaje css</h2>
+      <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación y el diseño visual de un
+        documento escrito en un lenguaje de marcado como HTML. Es una herramienta esencial en el desarrollo web, ya que
+        permite separar el contenido (HTML) de su apariencia, facilitando la personalización y el mantenimiento de los
+        sitios web.</p>
+      <!--Etiquetas-->
+      <h2>Propiedades más importantes</h2>
+      <h4>Texto y fuentes</h4>
+      <ul>
+        <li><b>color:</b> color del texto</li>
+
+        <li><b>font-family:</b> tipo de letra</li>
+
+        <li><b>font-size:</b> tamaño de letra.</li>
+
+        <li><b>text-align:</b> alineación (left, center, right, justify)</li>
+
+        <li><b>text-decoration: </b>subrayado, tachado, etc</li>
+
+      </ul>
+      <h4>Modelo de caja</h4>
+      <ul>
+        <li><b>width / height: </b>ancho y alto</li>
+        <li><b>margin:</b> espacio exterior</li>
+        <li><b>padding:</b> espacio interior</li>
+        <li><b>border: </b>borde (grosor, estilo y color)</li>
+
+      </ul>
+      <h4>Fondo y colores</h4>
+      <ul>
+        <li><b>background-color: </b> de fondo</li>
+        <li><b>background-size: </b>tamaño de la imagen (cover, contain, etc.)</li>
+        <li><b>background-image:</b> imagen de fondo</li>
+
+      </ul>
+      <h4>Flexbox</h4>
+      <ul>
+        <li><b>display: flex:</b> activa flexbox.</li>
+        <li><b>justify-content:</b> alinear horizontal (start, center, space-between, etc.)</li>
+        <li><b>align-items:</b> alinear vertical (start, center, stretch…)</li>
+        <li><b>flex-direction:</b> dirección (row, column).</li>
+        <li><b>flex-wrap:</b> si los elementos se ajustan o no en varias líneas</li>
+
+      </ul>
+      <h4>Diseño y organización</h4>
+      <ul>
+        <li><b>display:</b> tipo de caja (block, inline, flex, grid, none…)</li>
+        <li><b> position:</b> posicionamiento (static, relative, absolute, fixed, sticky)</li>
+        <li><b>top, right, bottom, left:</b> posición en la pantalla</li>
+        <li><b>float:</b> flotar elementos (casi en desuso, se usa más flex o grid)</li>
+
+      </ul>
+      <h4>Otros muy usados</h4>
+      <ul>
+        <li><b>overflow:</b> qué pasa si el contenido se sale (hidden, scroll, auto)</li>
+        <li><b>opacity:</b> transparencia</li>
+        <li><b>cursor:</b> tipo de cursor (pointer, default, etc.)</li>
+        <li><b>transition:</b> animaciones suaves entre cambios</li>
+        <li><b>animation:</b> animaciones avanzadas con @keyframes</li>
+
+      </ul>
+      <h4>Diferencia de pagina hecha solo con HTML y una diseñada con Css</h4>
+      
+      <img
+        src="https://htmldesdecero.es/medios/2021/10/Pagina-HTML-con-CSS-600x444.png"
+        alt="css">
+      <img
+        src="https://comoyodsg.com/wp-content/uploads/2013/08/Free_HTML_CSS_Templates_2.jpg"
+        alt="css">
+          
+       
+    </section>
+    <!--VIDEOS Y TUTORIALES-->
+
+    <section id="Videos" class="Videos y tutoriales">
+      <h2>Videos y tutoriales recomendados:</h2>
+      <div class="videoEj">
+        <h3>Aprende HTML ahora! curso completo GRATIS desde cero</h3>
+        <h4>Este video extenso te puede ayudar con las bases de como utilizar html, tomando en cuenta cosas como:</h4>
+        <ul>
+          <li>Origenes de html</li>
+          <li>Etiquetas basicas</li>
+          <li>Creacion de la pagina del proyecto</li>
+          <li>Tablas y listas</li>
+          <li>Incluso elementos mas avanzados como Formularios y BotonesS</li>
+        </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJkdaVFHrto?si=9-NO3OioPm9V_-3L"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>HTML en 5 minutos | Te lo explico así nomás.</h3>
+        <h4>Este video es mas corto, usando el humor para mantenerte al tanto, y llendo al grano y explicando lo mas
+          basico para que te interese usar esta herramienta:</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EvKm8yhM7V8?si=tofbvt0sF8aZM1vW"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>Cómo hacer un sitio web de Cafetería responsive con HTML - CSS | PARTE 1 | Desde cero</h3>
+        <h3>Cómo hacer un sitio web de Cafetería responsive con HTML - CSS | PARTE 2 | Desde cero</h3>
+        <h4>Estos dos videos tutoriales te enseñaran a hacer una pagina para una cafeteria, siendo mas simple y para
+          principiantes en el primer video, pero en lo que avanza, obtendras mas conocimientos y experiencia para usar
+          codigo mas avanzado que te servira en la vida real</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L3tal8ATx5o?si=Rg_5tsRGPOWVOXmg"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/brfi75j__Rc?si=6xcj1UK7SrkrkDue"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!--Herramientas para Web Dev-->
+        <section id="Aplicaciones">
+          <h2>Aplicaciones para programar:</h2>
+          <div class="cntApp">
+            <div class="appEj">
+              <h3>Bloc de notas:</h3>
+              <img src="assets/img/Notepad_Win11.svg.png"></img>
+              <p>El Bloc de notas es una herramienta muy básica que viene incluida en Windows. Sirve para escribir y
+                editar texto sin
+                formato sin distracciones ni funciones avanzadas. Aunque no está pensado específicamente para desarrollo
+                web, puede
+                usarse para crear o modificar archivos HTML, CSS o JavaScript de manera sencilla. Su ventaja principal
+                es que es
+                ligero, rápido y siempre disponible, pero carece de ayudas como autocompletado, resaltado de sintaxis o
+                extensiones. Es una opción accesible para ediciones rápidas o para aprender los fundamentos del código
+                sin
+                distracciones.
+              </p>
+            </div>
+            <div class="appEj">
+              <h3>Visual Studio Code:</h3>
+              <img src="assets/img/Visual_Studio_Code_1.35_icon.svg.png"></img>
+              <p>Uno de los mas usados, creado por Microsoft, es una herramienta creada especialmente para programar (en
+                multitud de
+                lenguajes), ligera, gratuita y multiplataforma, pero al mismo tiempo muy potente. Ofrece resaltado de
+                sintaxis,
+                autocompletado inteligente, depuración integrada, y una enorme variedad de extensiones que permiten
+                trabajar con HTML,
+                CSS, JavaScript, frameworks modernos (React, Angular, Vue), control de versiones con Git y hasta
+                servidores locales.
+                Además, su interfaz es sencilla y personalizable, lo que lo hace ideal tanto para principiantes como
+                para
+                desarrolladores avanzados. </p>
+            </div>
+            <div class="appEj">
+              <h3>Notepad++:</h3>
+              <img src="assets/img/Notepad++_Logo.svg.png"></img>
+              <p>Notepad++ es un editor de texto ligero y gratuito para Windows, ideal para programadores y
+                principiantes. Soporta
+                múltiples lenguajes de programación, incluyendo HTML, CSS y JavaScript, con resaltado de sintaxis,
+                autocompletado
+                básico y pestañas para trabajar con varios archivos a la vez. Su principal ventaja es que es rápido,
+                sencillo y muy
+                accesible, perfecto para ediciones rápidas o aprender a codificar sin distracciones. Además, cuenta con
+                plugins que
+                amplían su funcionalidad según tus necesidades. </p>
+            </div>
+          </div>
+        </section>
+        <!--Termina Herramientas para Web Dev-->
+
+
+</body>
+
+</html>
