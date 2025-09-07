@@ -104,3 +104,51 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   margin-top: 15px;
 }
+
+/*Seccion de herramientas para Web Dev*/
+.cntApp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cntApp img{
+  max-height: 300px;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.appEj{
+  border: #2791F5 5px solid;
+  border-radius: 16px;
+  margin: 20px;
+  margin-top: 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px;
+}
+
+#Aplicaciones{
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  flex-direction: column;
+}
+
+#Aplicaciones h2{
+  color:#1a3d7c;
+  margin-top: 0;
+}
+
+#Aplicaciones h3{
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+#Aplicaciones p{
+  padding: 20px;
+  padding-bottom: 0px;
+}
+/*Fin de seccion de herramientas para Web Dev*/
