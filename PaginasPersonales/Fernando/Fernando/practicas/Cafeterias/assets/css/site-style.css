@@ -1,0 +1,214 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;/* sans es la determinada*/
+    display: flex; /* para que se ajuste*/
+    justify-content: center; /* todo lo que este estara centrado*/
+    align-items: center; 
+    min-height: 100vh; /* toma el 100% de su pantalla*/
+    margin:0 ; 
+    background-color: #f0f0f0;
+}
+.content{
+    background-color: #fff;
+    margin: 10%;
+    width: 90%;/*ancho */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgb(113, 108, 108);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgb(182, 99, 39);
+    padding: 10px 0px 10px 15px;
+    border-radius: 10px 10px 0 0;
+    color:#f0f0f0
+
+}
+/*todos los h1 que esten en header aplica el diseño que se encuentre dentro */
+header h1 {
+    text-shadow: 1px 1px 2px #000;
+}
+nav{
+    background-color: #000;
+}
+
+nav ul {
+    list-style: none; /* es para quitar los puntos de la lista */
+    margin:0; /* espacio por fuera */
+    padding:0; /* espacio que es por dentro */
+    display:flex; /* como se comporta horizontal (que se pueda adaptar */
+    justify-content: space-around; /* se va a ajustar dentro del espacio que tengan disponible */
+}
+/* eso es herencia pasar de un elementos a otro hasta llegar a modificar lo que se desea*/
+nav ul li a {
+    display: block; /* que cada palabra tendra un bloque distinto */
+    padding: 15px 0 ;
+    color:#f0f0f0;
+    text-decoration: none; /* quitar el subrayado */
+    font-weight: bold; /* que este en negritas */
+    transition: background-color 0.3s ease; /* es para cuando pase el mouse tarde un poquito el fondo */
+}
+/* hover es cuando pasas el mouse que haga algo */
+nav ul li a:hover{
+    background-color: bisque;
+    color:#000
+}
+nav ul  li { /* hace que abarque todo el espacio */
+    flex:1;
+    text-align: center;
+}
+.carrusel{
+    width: 100%;
+    height: 30rem;
+    overflow: hidden; /* se oculta si se sobrepasa fuera del contenedor */
+    position: relative; /* que no sobrepase el espacio fuera del contenedor */
+
+}
+.img-productos {
+    display:flex;
+    width: max-content;/* toma el valor maximo que ya estaba dentro de la caja*/
+    animation: scroll 35s linear infinite ; /* se va a ir movimiendo de una forma lineal infinito */
+
+}
+.img-productos{
+    width: 50rem;
+    height: 30rem;
+    object-fit: cover;
+}
+@keyframes scroll{
+    0% {
+        transform: translate(0);
+    }
+    100%{
+        transform: translateX(-250rem);
+    }
+}
+
+#menu,#promo{
+    width: 90%;
+    margin:2rem;
+    padding: 1.5rem 2rem;
+    background-color: #fffff9;
+    border-radius: 12px;
+    color:#743a3a;
+}
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li {
+    margin-bottom: 1.6rem;
+    border-left: 4px solid #aa5050;
+    padding-left: 1rem;
+    transition: background-color 0.3s ease;
+    cursor:pointer;
+    border-radius: 5px;
+
+}
+#menu ul li:hover{
+    background-color: #ec9b73;
+}
+#menu ul li strong {
+    font-size: 1.15rem;
+    color:#aa5050;
+}
+
+#menu ul li small{
+    display:block;
+    font-size: 0.85rem;
+    font-style: italic;
+    color:#743a3a;
+    margin-top: 0.2rem ;
+}
+/promo/
+.promo1,.promo2{
+    margin-bottom: 1.6rem;
+    border-left: 4px solid #aa5050;
+    padding-left: 1rem;
+    transition: background-color 0.3s ease;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.promo1 strong {
+    font-size: 1.15rem;
+    color:#aa5050;
+}
+.promo1 small{
+    display:block;
+    font-size: 0.85 rem;
+    font-style: italic;
+    color:#743a3a;
+    margin-top: 0.2 rem ;
+}
+.promo2 strong {
+    font-size: 1.15rem;
+    color:#aa5050;
+}
+.promo2 small{
+    display:block;
+    font-size: 0.85 rem;
+    font-style: italic;
+    color:#743a3a;
+    margin-top: 0.2 rem ;
+}
+.promo-titulos {
+    margin: 10px;
+    display: flex;        /* Pone los dos textos en fila */
+    justify-content:space-around; /* Los separa */
+    gap: 0px;            /* Espacio entre ellos */
+    margin-bottom: 15px;  /* Espacio antes de la imagen */
+}  
+.promo1, .promo2 {
+    font-size: 16px;
+    text-align: center; /* centra título e imagen */
+}
+
+#nosotros{
+    width: 90%;
+    margin:2rem;
+    padding: 1.5rem 2rem;
+    background-color: #fffff9;
+    border-radius: 12px;
+    color:#743a3a;
+}
+.Nosotros{
+    color:#7d3009
+}
+.carrusel2{
+    margin: 10px;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden; /* se oculta si se sobrepasa fuera del contenedor */
+    position: relative; /* que no sobrepase el espacio fuera del contenedor */
+
+}
+.img-productos2 {
+    display:flex;
+    width: max-content;/* toma el valor maximo que ya estaba dentro de la caja*/
+    animation: scroll 70s linear infinite ; /* se va a ir movimiendo de una forma lineal infinito */
+
+}
+.img-productos2{
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.Reco{
+    text-align: center;
+    margin: 40px;
+    list-style: none;
+    background-color: #cf7f24;
+    color:#fefec5;
+    padding:10px;
+}
+#contacto{
+    width: 90%;
+    margin:2rem;
+    padding: 1.5rem 2rem;
+    background-color: #fffff9;
+    border-radius: 12px;
+    color:#743a3a;
+}
+.info ul {
+    list-style: none;
+}

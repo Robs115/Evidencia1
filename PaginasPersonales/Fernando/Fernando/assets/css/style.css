@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8dc; /* color crema claro */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #8b4513; /* marrón oscuro */
+  color: #ffd700; /* dorado */
+  padding: 5rem 1rem 4rem;
+  text-align: center;
+}
+
+header .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Foto con marco doble */
+header img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 6px solid #8b4513; /* marco café */
+  padding: 5px;
+  border: 4px solid #ffd700; /* marco dorado interior */
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+/* Contenido principal */
+main.contenido {
+  max-width: 1000px; /* más ancho que el original */
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Secciones más alargadas horizontalmente */
+section {
+  background: #fff8dc; /* amarillo claro */
+  margin-bottom: 2rem;
+  padding: 2rem 3rem;
+  border-left: 8px solid #8b4513; /* borde café */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titulos de sección */
+h2 {
+  color: #b8860b; /* dorado oscuro */
+  margin-bottom: 1rem;
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #daa520; /* dorado suave */
+}
+
+/* Enlaces */
+a {
+  color: #8b4513; /* café */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #b8860b; /* dorado oscuro al pasar */
+}
+
+/* Footer */
+footer {
+  background: #8b4513; /* café */
+  color: #ffd700; /* dorado */
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+  border-top: 4px solid #b8860b; /* detalle dorado */
+}
