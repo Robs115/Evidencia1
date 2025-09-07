@@ -66,6 +66,88 @@
         <img src="https://disenowebakus.net/imagenes/articulos/estructura-basica-de-una-pagina-web-en-html.jpg"
           alt="Estructura HTML" width="500" height="300">
       </center>
+      <p>
+        En HTML existen etiquetas muy utilizadas para dar formato al texto: los
+        títulos que van desde <code>&lt;h1&gt;</code> hasta <code>&lt;h6&gt;</code>,
+        los párrafos con <code>&lt;p&gt;</code>, saltos de línea con
+        <code>&lt;br&gt;</code>, líneas divisorias con <code>&lt;hr&gt;</code>,
+        además de las etiquetas de énfasis como <code>&lt;b&gt;</code> o
+        <code>&lt;strong&gt;</code> para resaltar en negritas, <code>&lt;i&gt;</code>
+        o <code>&lt;em&gt;</code> para cursivas, y <code>&lt;u&gt;</code> para
+        subrayados. También se han incorporado otras etiquetas modernas como
+        <code>&lt;mark&gt;</code> para resaltar texto, <code>&lt;small&gt;</code>
+        para mostrar notas en un tamaño menor, o <code>&lt;sub&gt;</code> y
+        <code>&lt;sup&gt;</code> que permiten escribir subíndices y superíndices.
+      </p>
+      <div style="border:1px solid #ddd; padding:10px; margin-bottom:20px;">
+        <h1>Ejemplo de título H1</h1>
+        <h3>Ejemplo de título H3</h3>
+        <p>Esto es un párrafo normal.</p>
+        Salto de <br> linea
+        <hr>
+        <b>Negritas</b>, <strong>negritas</strong>,
+        <i>Cursiva</i>, <em>Énfasis</em>, <u>Subrayado</u>,
+        <mark>Texto resaltado</mark>, <small>Texto pequeño</small>,
+        H<sub>2</sub>O, X<sup>2</sup>
+      </div>
+      <p>
+        Otro elemento fundamental son las <b>listas</b>, que permiten organizar
+        información. Las listas ordenadas <code>&lt;ol&gt;</code> presentan los
+        elementos de forma numerada, mientras que las listas no ordenadas
+        <code>&lt;ul&gt;</code> muestran viñetas simples. En ambos casos cada
+        elemento se define con <code>&lt;li&gt;</code>. Asimismo, HTML permite
+        añadir enlaces mediante <code>&lt;a&gt;</code> y trabajar con contenido
+        multimedia como imágenes con <code>&lt;img&gt;</code>, videos con
+        <code>&lt;video&gt;</code> o incluso mapas y contenido externo con
+        <code>&lt;iframe&gt;</code>.
+      </p>
+      <div style="border:1px solid #ddd; padding:10px; margin-bottom:20px;">
+        <h4>Lista ordenada:</h4>
+        <ol>
+          <li>Primero </li>
+          <li>Segundo </li>
+        </ol>
+
+        <h4>Lista no ordenada:</h4>
+        <ul>
+          <li>Primero</li>
+          <li>Segundo</li>
+        </ul>
+      </div>
+      <p>
+        Para organizar datos de manera estructurada también se emplean las tablas,
+        creadas con <code>&lt;table&gt;</code>. Estas se dividen en filas
+        <code>&lt;tr&gt;</code> y celdas <code>&lt;td&gt;</code>, mientras que los
+        encabezados se representan con <code>&lt;th&gt;</code>. Además, se pueden
+        añadir etiquetas semánticas como <code>&lt;thead&gt;</code>,
+        <code>&lt;tbody&gt;</code> o <code>&lt;tfoot&gt;</code> para diferenciar
+        claramente las secciones de la tabla.
+      </p>
+      <div style="border:1px solid #ddd; padding:10px; margin-bottom:20px;">
+        <table border="1" cellpadding="5">
+          <thead>
+            <tr>
+              <th>X</th>
+              <th>Y</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Tabla</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
     </section>
 
     <!--Lenguaje CSS-->
