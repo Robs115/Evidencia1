@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   line-height: 1.6;
 }
-
+/* Estilos para el panel lateral */
 .PanelLateral {
   width: 220px;
   background: #2791F5;
@@ -59,7 +59,7 @@ body {
   font-size: 12px;
   color: #cbd5e1;
 }
-
+/* Estilos para la seccion de bienvenida */
 .bienvenida {
     background-color: #fff;
     border: 1px solid #e0e0e0;
@@ -79,7 +79,7 @@ body {
 .bienvenida li {
     margin-bottom: 6px;
 }
-
+/* Estilos para la seccion de lenguaje HTML */
 .lenguajehtml {
     background-color: #fff;
     border: 1px solid #e0e0e0;
@@ -113,7 +113,7 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-
+/* Estilos para la parte de CSS y paginas con estilos similares */
 .Css ,.Videos_y_tutoriales, .PaginasPersonales {
     background-color: #fff;
     border: 1px solid #e0e0e0;
