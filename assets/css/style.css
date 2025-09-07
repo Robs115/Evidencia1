@@ -114,7 +114,7 @@ body {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.Css {
+.Css ,.Videos_y_tutoriales, .PaginasPersonales {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
@@ -192,3 +192,23 @@ body {
   padding-bottom: 0px;
 }
 /*Fin de seccion de herramientas para Web Dev*/
+
+.Miembros{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Miembros img{
+  max-height: 200px;
+  max-width: fit-content;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.MiembroEquipo{
+  background-color: #1a3d7c ;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 10px;
+}
